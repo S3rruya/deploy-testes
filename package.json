@@ -1,0 +1,49 @@
+{
+  "name": "lucas",
+  "version": "1.0.0",
+  "description": "Projeto Final M4 KBeaters",
+  "main": "index.ts",
+  "repository": "git@github.com:Projeto-final-M4-KBeaters/KBeaters.git",
+  "author": "lucas <lucascostaschmidt@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
+    "build": "tsc",
+    "start": "node dist/src/server.js",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "test": "cross-env NODE_ENV=test SECRET_KEY=secret_key jest --verbose --runInBand"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.15",
+    "@types/jest": "^29.2.5",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jest": "^29.3.1",
+    "jsonwebtoken": "^9.0.0",
+    "jwt": "^0.2.0",
+    "node": "^18.12.1",
+    "node-gyp": "^9.3.1",
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.4",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.11",
+    "uuid": "^9.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
