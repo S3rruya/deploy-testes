@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binding", "binding.vcxproj", "{FAB0E4B6-98A7-7479-9D90-85F064E6ABC5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binding", "binding.vcxproj", "{17C83AEC-038B-7965-1A0D-8F083A361055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +8,10 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAB0E4B6-98A7-7479-9D90-85F064E6ABC5}.Debug|x64.ActiveCfg = Debug|x64
-		{FAB0E4B6-98A7-7479-9D90-85F064E6ABC5}.Debug|x64.Build.0 = Debug|x64
-		{FAB0E4B6-98A7-7479-9D90-85F064E6ABC5}.Release|x64.ActiveCfg = Release|x64
-		{FAB0E4B6-98A7-7479-9D90-85F064E6ABC5}.Release|x64.Build.0 = Release|x64
+		{17C83AEC-038B-7965-1A0D-8F083A361055}.Debug|x64.ActiveCfg = Debug|x64
+		{17C83AEC-038B-7965-1A0D-8F083A361055}.Debug|x64.Build.0 = Debug|x64
+		{17C83AEC-038B-7965-1A0D-8F083A361055}.Release|x64.ActiveCfg = Release|x64
+		{17C83AEC-038B-7965-1A0D-8F083A361055}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
